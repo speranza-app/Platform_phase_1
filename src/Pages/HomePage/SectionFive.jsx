@@ -24,7 +24,7 @@ const SectionFive = () => {
              <CustomTextInput header={'First name'} placeholder={'Enter your First Name'} state={fname} setState={setFname}></CustomTextInput>
              <CustomTextInput header={'Last name'} placeholder={'Enter your Last Name'} state={lname} setState={setLName}></CustomTextInput>
              <CustomTextInput header={'Email'} placeholder={'Enter your Email'} state={email} setState={setEmail}></CustomTextInput>
-             <div style={{width:'80%',margin:"auto"}}>
+             <div className='subsribeButtonWrapper'>
               <div className='subsribeButton'>
                   <p>Subscribe</p>
 

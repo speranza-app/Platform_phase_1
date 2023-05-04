@@ -124,7 +124,12 @@
     .sectionThreePoint>div:nth-child(1){
         height: 50%;
     }
-   
+    .customTextInput{
+        width: 90%;
+    }
+    .subsribeButtonWrapper{
+        width: 90%;
+    }
  
     
 }
