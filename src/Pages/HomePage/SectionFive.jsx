@@ -3,7 +3,7 @@ import React from 'react'
 const SectionFive = () => {
   return (
     <div>
-        FOOTER
+        {/* FOOTER */}
     </div>
   )
 }

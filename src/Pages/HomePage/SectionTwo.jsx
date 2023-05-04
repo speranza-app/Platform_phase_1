@@ -6,12 +6,12 @@ const SectionTwo = () => {
   return (
     <main style={{backgroundColor:'#3a44a1'}}>
         <section className='section sectionTwo'>
-            <h1 className='sectionHeader'>Why CRED?</h1>
+            <h1 className='sectionHeader'>Why AlgoX?</h1>
             <p>
-                simply because, CRED is the nucleus
-                of all great minds at work. to elaborate 
-                more on the why, here’s a thought experiment 
-                for you:
+            simply because, AlgoX ignites the genius within, empowering all who seek to
+            master the language of code. to elobarate more on the why, here’s a thought
+            experiment for you: 
+
             </p>
             {
                 SECTION_TWO_DATA.map(
@@ -21,10 +21,10 @@ const SectionTwo = () => {
             }
 
             <p>
-                the CRED manifesto is crowd sourced from these 
-                very people, all rooted in different backgrounds
-                 but sharing the same ethos; to continuously push 
-                 oneself and in the process, the community.
+            the AlgoX manifesto is crowd sourced from these very people, all rooted in
+            different backgrounds but sharing the same ethos;- the unwavering dedication to
+            push themselves beyond limits and uplift the community as a whole.
+
 
             </p>
 

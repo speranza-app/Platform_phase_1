@@ -1,37 +1,37 @@
 export const SECTION_TWO_DATA=[
     {
-        text:"put a group of incredibly passionate, driven individuals together.",
+        text:"put a group of immensely enthusiastic , highly motivated individuals together. ",
     },
     {
-        text:"give them the complete freedom to chase down their goals in a complete uninhibited manner.",
+        text:"give them the complete freedom to learn and chase down their goals in a completely uninhibited manner. ",
     },
     {
-        text:"you will have CRED.",
+        text:"You will have a structured curriculum, weekly contests, biweekly workshops, Doubt Resolution sessions, exciting prices too! ( We AlgoX )",
     },
     {
-        text:"the CRED manifesto is crowd sourced from these very people, all",
+        text:"You will have AlgoX – a coign’s intiative.",
     },
 ]
 
 export const SECTION_THREE_DATA=[
     {
         image:'	https://careers.cred.club/Images/knife&fork.png',
-        header:'kill deadlines, not your appetite.',
+        header:'Structured Curriculum ',
         text:'a stacked pantry with an all you can eat lunch & dinner.'
     },
     {
         image:'	https://careers.cred.club/Images/knife&fork.png',
-        header:'kill deadlines, not your appetite.',
+        header:'Events ( Engage , Educate , Empower ) ',
         text:'a stacked pantry with an all you can eat lunch & dinner.'
     },
     {
         image:'	https://careers.cred.club/Images/knife&fork.png',
-        header:'kill deadlines, not your appetite.',
+        header:'Our Comprehensive Approach ',
         text:'a stacked pantry with an all you can eat lunch & dinner.'
     },
     {
         image:'	https://careers.cred.club/Images/knife&fork.png',
-        header:'kill deadlines, not your appetite.',
+        header:'AlgoX Tribe ',
         text:'a stacked pantry with an all you can eat lunch & dinner.'
     },
 ]
@@ -40,44 +40,44 @@ export const SECTION_THREE_DATA=[
 export const JOURNEY_DATA=[
     {
         date:"Step",
-        leftData:"The birth of a community",
-        rightData:"It all started with a discord channel where students exchanged college notes, hung out, and talked about things they loved.",
+        leftData:"The Orientation Program.",
+        rightData:"We have a Three-day induction program where we help you to choose a programming language and learn the prerequisites needed to start with our curriculum",
         
     },
     {
         date:"Step",
-        leftData:"The birth of a community",
-        rightData:"It all started with a discord channel where students exchanged college notes, hung out, and talked about things they loved.",
+        leftData:"Structured 8 - Week Curriculum",
+        rightData:"This is the heart of our program, where the real magic happens! It's a comprehensive guided learning path that's designed to take you on a journey of discovery and growth, culminating in a deep understanding of the subject matter. With a carefully curated list of problems, you'll be challenged and inspired every step of the way. Each week builds upon the last, helping you to develop your skills and expertise in a logical and progressive manner.",
         
     },
     {
         date:"Step",
-        leftData:"The birth of a community",
-        rightData:"It all started with a discord channel where students exchanged college notes, hung out, and talked about things they loved.",
+        leftData:"Interview Insight",
+        rightData:"Your ultimate guide to acing technical interviews with ease. A one-stop solution that provides you with the knowledge, tools, and confidence you need to succeed in even the toughest technical interviews.",
         
     },
     {
         date:"Step",
-        leftData:"The birth of a community",
-        rightData:"It all started with a discord channel where students exchanged college notes, hung out, and talked about things they loved.",
+        leftData:"AlgoX's Tribe",
+        rightData:". ( A Community of Mentors and Highly Enthusiastic Peers ) Our tribe is dedicated to providing top-notch Doubt Resolution, with a focus on fostering a culture of collaboration and continuous learning. Here, you will have access to support from experienced mentors, as well as a network of like-minded peers who are committed to helping each other succeed.",
         
     },
     {
         date:"Step",
-        leftData:"The birth of a community",
-        rightData:"It all started with a discord channel where students exchanged college notes, hung out, and talked about things they loved.",
+        leftData:"Events",
+        rightData:"( That actually helps you to grow ) : Will be having Weekly Contests, Biweekly Workshops, Instructor Doubt Resolution Sessions and much more!",
         
     },
     {
         date:"Step",
-        leftData:"The birth of a community",
-        rightData:"It all started with a discord channel where students exchanged college notes, hung out, and talked about things they loved.",
+        leftData:"Preliminary Round",
+        rightData:"This will be the qualifier round for the onsite contest where will be selecting 200 students from top 400 students ( Based on 8 Weekly Contests )",
         
     },
     {
         date:"Step",
-        leftData:"The birth of a community",
-        rightData:"It all started with a discord channel where students exchanged college notes, hung out, and talked about things they loved.",
+        leftData:"The Final Round",
+        rightData:"200 students will compete in an offline contest in Hyderabad, working in 65 teams of three to solve seven problems in five hours using one computer per team",
         
     },
 ]

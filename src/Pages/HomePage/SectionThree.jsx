@@ -4,10 +4,13 @@ import SectionThreePoint from '../../Components/SectionThreePoint'
 
 const SectionThree = () => {
   return (
-    <section className='section sectionThree'>
+    <section className='mx-auto w-[90%] lg:w-[80%] xl:w-[70%] 2xl:w-50%  section sectionThree'>
         <div>
-            <h1 className='sectionHeader' style={{padding:0,textAlign:'left',color:'#3a44a1'}}>want to know what it's like to work at CRED?</h1>
-            <p>hard truths: pushing oneself comes with the role. and we realise pushing oneself is hard work. which is why CRED is in the continuous process of building an environment that helps the team rejuvenate oneself.</p>
+            <h1 className='sectionHeader' style={{padding:0,textAlign:'left',color:'#3a44a1'}}>Want to know what it’s like to learn from AlgoX? </h1>
+            <p>pushing oneself comes with the role. and we realise pushing oneself is hard work.
+              which is why AlgoX is in the continuous process of building a curriculum that
+              helps the individual rejuvenate oneself. 
+            </p>
         </div>
         <div>
         {
