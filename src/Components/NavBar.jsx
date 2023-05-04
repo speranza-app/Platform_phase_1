@@ -28,7 +28,7 @@ const NavBar = () => {
           <Link to={''} className='navItem'>About Us</Link>
         </div>
         <div className='navButton hidden lg:block   font-semibold !bg-[#3a44a1] '  style={{transform:'none'}}>
-          <a className='text-white'>Login with Google</a>
+          <a className='text-white'>Register</a>
         </div>
         <div className="flex gap-3 lg:hidden">
           <button className="navSmallScreenButton" >

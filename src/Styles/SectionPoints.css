@@ -119,24 +119,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 80vh;
+    min-height: 90vh;
     background-color: #f8f8f8;
+    /* background-color: red; */
 
 }
 
-.sectionOne>div:nth-child(1)>h1{
-    opacity: 0.8;
-    font-family: Gilroy;
-    font-size: 48px;
-    font-weight: 800;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: 2px;
-    text-align: center;
-    color: #000000;
-    font-family: 'Outfit', sans-serif;
-}
+
+
+
 .sectionOne .button{
     background-color: #11141c;
     border-radius: 20px;
@@ -153,10 +144,68 @@
     cursor: pointer;
     color: white;
     gap: 10px;
+    margin-bottom: 50px;
 
 
 
 }
 .button>p{
     letter-spacing: 1px;
+}
+
+/* images */
+.heroImages{
+    overflow-x: hidden;
+    margin: auto;
+   
+}
+.images{
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 10px;
+    height: 250px;
+    align-items: end;
+    /* align-items: baseline; */
+   
+   
+    
+}
+.images>div{
+    height: 100%;
+}
+
+.image1{
+    width: 30%;
+    height: 100% !important;
+   
+
+}
+.image2{
+    height: 65% !important;
+    width: 30%;
+}
+.image3{
+    height: 85% !important;
+    width: 40%;
+}
+.image4{
+    width: 40%;
+}
+.image5{
+    width: 40%;
+}
+.image6{
+    width: 20%;
+    align-self: baseline;
+    height: 50% !important
+}
+.images>div>img{
+    height: 100%;
+    width: 100%;
+    
+    
+    object-fit: cover;
+    border-radius: 18px;
 }

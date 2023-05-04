@@ -107,6 +107,12 @@
     .sectionThree>div:nth-child(1){
         gap: 20px;
     }
+    .images>div>img{
+        border-radius: 10px;
+    }
+    .images{
+        height: 200px;
+    }
    
  
     
