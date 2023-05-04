@@ -3,7 +3,7 @@ import React from 'react'
 const SectionOne = () => {
   return (
     <main style={{backgroundColor:'#f8f8f8'}}>
-        <section className='section sectionOne'>
+        <section className='section sectionOne !pb-0 '>
             <div>
               <h1 className=" text-[36px] min-[700px]:text-[40px]  lg:text-[48px] font-extrabold !text-textColor  text-center">Inspire. Educate. Empower</h1>
               <h2 className="my-6 headerPara mx-auto text-center  ">This is an 8-week problem-solving curriculum that offers a comprehensive approach <br className=' hidden lg:block'/> to
