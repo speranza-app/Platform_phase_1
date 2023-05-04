@@ -15,13 +15,23 @@
     display: flex;
     gap: 40px;
     margin-top: 40px;
-    flex-basis: 40%;
+    width: 40%;
+    align-items: start;
+    /* background-color: yellow; */
     
 }
-.sectionThreePoint img{
+.sectionThreePoint>div:nth-child(1){
+    width: 20%;
+    /* background-color: red; */
+}
+.sectionThreePoint>div:nth-child(1)>img{
     object-fit: contain;
     width: 100%;
     height: 100%;
+}
+.sectionThreePoint>div:nth-child(2){
+    width: 70%;
+    /* background-color: green; */
 }
 
 
@@ -72,6 +82,7 @@
     display: flex;
     gap: 40px;
     justify-content: center;
+    
 
 
 }
@@ -209,4 +220,84 @@
     
     object-fit: cover;
     border-radius: 18px;
+}
+
+/* section five */
+
+.sectionFive{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.discord{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #414141;
+    margin: 30px 0px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.discord>div{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(135deg, rgba(64, 41, 209, 0.3) 0%, #5942E9 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* custom text input */
+
+.textInputs{
+    margin: 40px auto;
+    
+}
+.customTextInput{
+    text-align: left;
+    width: 80%;
+    
+    /* background-color: red; */
+    margin: auto;
+
+    
+}
+.customTextInput>input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 100%;
+}
+.subsribeButton{
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    background-color: #5942E9;
+    width: fit-content;
+    cursor: pointer;
+
+
+}
+.subsribeButton>p{
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.subscribePara{
+    opacity: 0.6;
+  
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+ 
+    line-height: 1.8;
+    letter-spacing: 0.94px;
+    color: #000000;
+    flex-basis: 40%;
 }

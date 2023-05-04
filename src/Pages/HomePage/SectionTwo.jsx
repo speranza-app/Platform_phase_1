@@ -6,11 +6,10 @@ const SectionTwo = () => {
   return (
     <main style={{backgroundColor:'#3a44a1'}}>
         <section className='section sectionTwo'>
-            <h1 className='sectionHeader'>Why AlgoX?</h1>
+            <h1 className='sectionHeader'>Why this Placement Cracker?</h1>
             <p>
-            simply because, AlgoX ignites the genius within, empowering all who seek to
-            master the language of code. to elobarate more on the why, here’s a thought
-            experiment for you: 
+            Because Coign unleashes the genius within, empowering all who aspire to master the language of
+            code. To elaborate more on the why, here’s a thought experiment for you: 
 
             </p>
             {
@@ -21,9 +20,10 @@ const SectionTwo = () => {
             }
 
             <p>
-            the AlgoX manifesto is crowd sourced from these very people, all rooted in
-            different backgrounds but sharing the same ethos;- the unwavering dedication to
-            push themselves beyond limits and uplift the community as a whole.
+            The Coign’s manifesto is crowd-sourced from very people, all rooted in different backgrounds but
+            sharing the same ethos;- the unwavering dedication to push students beyond limits and uplift the
+            community as a whole. 
+
 
 
             </p>

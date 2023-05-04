@@ -1,15 +1,15 @@
 export const SECTION_TWO_DATA=[
     {
-        text:"put a group of immensely enthusiastic , highly motivated individuals together. ",
+        text:"Imagine a group of immensely enthusiastic, highly motivated individuals. ",
     },
     {
-        text:"give them the complete freedom to learn and chase down their goals in a completely uninhibited manner. ",
+        text:"Imagine them having the complete freedom to learn and pursue their goals in a fun and engaging way ",
     },
     {
-        text:"You will have a structured curriculum, weekly contests, biweekly workshops, Doubt Resolution sessions, exciting prices too! ( We AlgoX )",
+        text:"Imagine them having access to a structured curriculum, weekly contests, biweekly workshops, doubt resolution sessions, and exciting prizes too! ",
     },
     {
-        text:"You will have AlgoX – a coign’s intiative.",
+        text:"That’s Coign. ",
     },
 ]
 
@@ -17,7 +17,7 @@ export const SECTION_THREE_DATA=[
     {
         image:'	https://careers.cred.club/Images/knife&fork.png',
         header:'Structured Curriculum ',
-        text:'a stacked pantry with an all you can eat lunch & dinner.'
+        text:'We have created a simple yet impactful guided path that helps any student to learn code irrespective of where you stand before'
     },
     {
         image:'	https://careers.cred.club/Images/knife&fork.png',
@@ -27,12 +27,12 @@ export const SECTION_THREE_DATA=[
     {
         image:'	https://careers.cred.club/Images/knife&fork.png',
         header:'Our Comprehensive Approach ',
-        text:'a stacked pantry with an all you can eat lunch & dinner.'
+        text:'Get 24/7 Instant Doubt Resolution from our expert mentors in Discord! '
     },
     {
         image:'	https://careers.cred.club/Images/knife&fork.png',
         header:'AlgoX Tribe ',
-        text:'a stacked pantry with an all you can eat lunch & dinner.'
+        text:'A community of immensely enthusiastic, highly motivated individuals. '
     },
 ]
 

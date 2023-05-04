@@ -59,6 +59,14 @@
         width: 70%;
         /* background-color: red; */
     }
+    .sectionFive{
+        flex-direction: column;
+        
+    }
+    .discord{
+        /* margin: auto; */
+        margin: 30px auto;
+    }
     /* .sectionThreePoint{
         gap:10px;
         flex-basis: 45%;
@@ -113,6 +121,9 @@
     .images{
         height: 200px;
     }
+    .sectionThreePoint>div:nth-child(1){
+        height: 50%;
+    }
    
  
     
@@ -138,7 +149,7 @@
         
     }
     .sectionThreePoint>div:nth-child(1){
-        width: 30%;
+        width: 20%;
     }
     .sectionHeader{
         font-size: 30px;
@@ -152,7 +163,7 @@
 
 @media screen  and (max-width:500px){
     .sectionThreePoint>div:nth-child(1){
-        width: 50%;
+        width: 20%;
     }
     
 }
