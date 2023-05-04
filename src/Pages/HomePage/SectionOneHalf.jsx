@@ -30,10 +30,10 @@ const SectionOneHalf = () => {
                 <img  src={imageFour}></img>
             </div>
             <div className='image5'>
-                <img  src={imageFive}></img>
+                <img  src={imageSix}></img>
             </div>
             <div className='image6'>
-                <img  src={imageSix}></img>
+                <img  src={imageFive}></img>
             </div>
 
         </div>
