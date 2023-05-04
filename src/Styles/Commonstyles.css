@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Questrial', sans-serif;
+     /* font-family: 'Outfit', sans-serif; */
+}
+
+.section{
+    width: 90%;
+   
+    margin: auto;
+    padding: 80px 0px;
+}
+
+.sectionHeader{
+    font-size: 40px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 0.22px;
+    color: #f8f8f8;
+    text-align: center;
+    
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width : 1536px  ) {
+    .section{
+        /* background-color: aqua; */
+        width: 50%;
+        
+    }
+    
+    
+}
+@media screen and (max-width : 1536px  ) {
+    .section{
+        /* background-color: aqua; */
+        width: 50%;
+        
+    }
+    
+    
+}
+@media screen and (max-width : 1280px ) {
+    .section{
+        width: 55%;
+        /* background-color: yellow; */
+
+    }
+    
+    
+}
+@media screen and (max-width : 1024px ) {
+    .section{
+        width: 60%;
+        /* background-color: red; */
+    }
+    /* .sectionThreePoint{
+        gap:10px;
+        flex-basis: 45%;
+        
+    }
+    .sectionThree>div:nth-child(2){
+        gap: 10px;
+    } */
+   
+    
+    
+    
+}
+
+
+@media screen and (max-width : 768px ) {
+    .section{
+        width: 70%;
+        /* background-color: orange; */
+    }
+    .sectionThree{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionThree>div:nth-child(1){
+        flex-direction: column;
+        width: 70%;
+    }
+   
+    .sectionThreePoint{
+        gap:10px;
+        flex-basis: 48%;
+        
+    }
+    .sectionThree>div:nth-child(2){
+        gap: 10px;
+    }
+    .sectionOne>div:nth-child(1)>h1{
+        font-size: 42px;
+    }
+    .sectionThree>div>p{
+        /* line-height: 1.2; */
+        font-size: 16px;
+    }
+    .sectionThree>div:nth-child(1){
+        gap: 20px;
+    }
+   
+ 
+    
+}
+
+@media screen and (max-width : 640px ) {
+    .section{
+        width: 80%;
+        /* background-color: green; */
+    }
+    .sectionThree>div:nth-child(2){
+        flex-direction: column;
+    }
+    .sectionThreePoint{
+        gap: 40px;
+
+    }
+    .sectionThreePoint{
+        width: 80%;
+        gap: 20px;
+        margin: auto;
+        margin-top: 30px;
+        
+    }
+    .sectionThreePoint>div:nth-child(1){
+        width: 30%;
+    }
+    .sectionHeader{
+        font-size: 30px;
+    }
+    .sectionTwo p{
+        font-size: 18px;
+    }
+    
+    
+}
+
+@media screen  and (max-width:500px){
+    .sectionThreePoint>div:nth-child(1){
+        width: 50%;
+    }
+    
+}
+
+
+
+
