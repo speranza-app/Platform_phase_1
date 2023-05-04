@@ -43,7 +43,7 @@ const animateOnScroll=()=>{
   
     return (
         <main style={{backgroundColor:'aliceblue'}}>
-            <section id='cirriculum' className="mx-auto max-w-6xl gap-4 py-9 md:py-16 pt-20 md:pt:30 section">
+            <section id='cirriculum' className="mx-auto max-w-6xl gap-4 py-9 md:py-16 pt-20 md:pt:30 w-[90%] lg:w-[80%] xl:w-[70%] 2xl:w-50%  section">
             <div className="flex flex-col md:gap-18">
                 <h3 className="text-center text-backgroundColor text-[30px] font-semibold md:text-[36px]">The journey from 0 to 1</h3>
                 <div className="flex min-h-screen flex-col justify-center">

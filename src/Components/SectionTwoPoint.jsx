@@ -1,12 +1,12 @@
 import React from 'react'
 
-const SectionTwoPoint = ({number=0,text=''}) => {
+const SectionTwoPoint = ({number=0,text='',span='',textMore=''}) => {
   return (
     <div className='sectionTwoPoint'>
         <div>
             {number}
         </div>
-        <p>{text}</p>
+        <p>{text} <span className='text-yellow-400'>{span}</span> {textMore}</p>
 
     </div>
   )

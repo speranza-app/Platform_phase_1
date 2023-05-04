@@ -80,7 +80,7 @@
 
 .sectionThree>div:nth-child(1){
     display: flex;
-    gap: 40px;
+    gap: 25px;
     justify-content: center;
     
 
@@ -97,10 +97,10 @@
     line-height: 1.8;
     letter-spacing: 0.94px;
     color: #000000;
-    flex-basis: 40%;
+    flex-basis: 45%;
 }
 .sectionThree>div>h1{
-    flex-basis: 40%;
+    flex-basis: 45%;
 }
 .sectionThree>div:nth-child(2){
     display: flex;

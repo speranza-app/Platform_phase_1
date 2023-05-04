@@ -15,7 +15,7 @@ const SectionTwo = () => {
             {
                 SECTION_TWO_DATA.map(
                     (data,index)=>
-                        <SectionTwoPoint number={index+1} key={index} text={data.text}></SectionTwoPoint>
+                        <SectionTwoPoint number={index+1} key={index} text={data.text} span={data.span} textMore={data.textMore}></SectionTwoPoint>
                     )
             }
 

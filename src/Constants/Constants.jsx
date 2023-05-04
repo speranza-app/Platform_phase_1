@@ -1,15 +1,23 @@
 export const SECTION_TWO_DATA=[
     {
         text:"Imagine a group of immensely enthusiastic, highly motivated individuals. ",
+        span:'',
+        textMore:''
     },
     {
         text:"Imagine them having the complete freedom to learn and pursue their goals in a fun and engaging way ",
+        span:'',
+        textMore:''
     },
     {
-        text:"Imagine them having access to a structured curriculum, weekly contests, biweekly workshops, doubt resolution sessions, and exciting prizes too! ",
+        text:"Imagine them having access to a ",
+        span:"structured curriculum, weekly contests, biweekly workshops, doubt resolution sessions,",
+        textMore:"and exciting prizes too! "
     },
     {
-        text:"That’s Coign. ",
+        text:"That’s Coign",
+        span:"Coign",
+        textMore:""
     },
 ]
 
@@ -41,19 +49,19 @@ export const JOURNEY_DATA=[
     {
         date:"Step",
         leftData:"The Orientation Program.",
-        rightData:"We have a Three-day induction program where we help you to choose a programming language and learn the prerequisites needed to start with our curriculum",
+        rightData:" Irrespective who you are , We have a Three-day induction program where we help you to choose a programming language and learn the prerequisites needed to start with our curriculum",
         
     },
     {
         date:"Step",
         leftData:"Structured 8 - Week Curriculum",
-        rightData:"This is the heart of our program, where the real magic happens! It's a comprehensive guided learning path that's designed to take you on a journey of discovery and growth, culminating in a deep understanding of the subject matter. With a carefully curated list of problems, you'll be challenged and inspired every step of the way. Each week builds upon the last, helping you to develop your skills and expertise in a logical and progressive manner.",
+        rightData:"This is the heart of our program, where the real magic happens! It's a comprehensive guided learning path that's designed to take you on a journey of discovery and growth, culminating in a deep understanding of the subject matter.  With a carefully curated list of problems, you'll be challenged and inspired every  step of the way. Each week builds upon the last, helping you to develop your skills and expertise in a logical and progressive manner. ",
         
     },
     {
         date:"Step",
         leftData:"Interview Insight",
-        rightData:"Your ultimate guide to acing technical interviews with ease. A one-stop solution that provides you with the knowledge, tools, and confidence you need to succeed in even the toughest technical interviews.",
+        rightData:": Our ultimate blog to acing technical interviews with ease.  A one-stop solution that provides you with the knowledge, tools, and confidence  you need to succeed in even the toughest technical interviews. ",
         
     },
     {

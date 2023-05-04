@@ -20,7 +20,7 @@ const SectionFourItem = ({date,leftData,rightData,index}) => {
                             <div className="w-full pl-4 sm:group-odd:pr-10 sm:group-even:pl-10">
                                 <div className="rounded p-2">
                                     <div className="flex flex-col gap-3 ">
-                                        <p className="text-[20px] font-semibold text-backgroundColor">{leftData}</p>
+                                        <p className="text-[20px] font-semibold text-backgroundColor ">{leftData}</p>
                                         <p className="text-[16px] font-normal text-gray-400">{rightData}</p>
                                     </div>
                                 </div>
