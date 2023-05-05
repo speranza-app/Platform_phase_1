@@ -6,6 +6,7 @@ import HomePage from './Pages/HomePage/HomePage'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import NavBar from './Components/NavBar'
 import SubmissionPage from './Pages/SubmissionPage/SubmissionPage'
+import Events from './Pages/events/Events'
 
 const App = () => {
   return (
@@ -16,6 +17,10 @@ const App = () => {
 
         </Route>
         <Route element={<SubmissionPage></SubmissionPage>} path='/student'></Route>
+        <Route
+          path='/events'
+          element={<Events />}
+         />
       </Routes>
     </Router>
   )

@@ -38,7 +38,7 @@ const NavBar = () => {
           {/* <Link to="/" className="navItem">
             Mentorship
           </Link> */}
-          <Link to="/" className="navItem">
+          <Link to="/events" className="navItem">
             Events
           </Link>
           {/* <Link to={''} className='navItem'>About Us</Link> */}
@@ -93,12 +93,12 @@ const NavBar = () => {
         </a>
 
         <br />
-        <a
-          href="#mentorship"
+        <Link
+          to="/events"
           className="mb-2 text-[18px] cursor-pointer pl-[20px] text-white mt-[10px]"
         >
           Events
-        </a>
+        </Link>
         <br />
         <Link
           to="/student"
