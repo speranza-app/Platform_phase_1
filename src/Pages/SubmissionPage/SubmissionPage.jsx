@@ -37,9 +37,9 @@ const SubmissionPage = () => {
         <Input name="phone" type="tel" label="Mobile" />
         <Input name="email" type="email" label="Your college Email" />
         <Input name="college" type="email" label="College name" />
-        <Input name="rollNo" type="email" label="College Roll number" />
-        <Input name="passingOutYear" type="number" label="Passing out year" />
-        <Input label="Already part of Coign">
+        <Input name="rollNumber" type="email" label="College Roll number" />
+        <Input name="passOutYear" type="number" label="Passing out year" />
+        {/* <Input label="Already part of Coign">
           <div className="flex gap-6 items-center px-4 py-2 rounded border border-blue-800 transition-shadow focus-within:ring">
             <label className="flex gap-3 items-center">
               Yes
@@ -60,7 +60,7 @@ const SubmissionPage = () => {
               />
             </label>
           </div>
-        </Input>
+        </Input> */}
         <button className="px-4 py-2 w-full text-white bg-blue-800 rounded">
           Submit
         </button>
