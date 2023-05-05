@@ -30,9 +30,9 @@ const NavBar = () => {
           <a href="/#cirriculum" className="navItem">
             Curriculum
           </a>
-          <Link to="/" className="navItem">
+          {/* <Link to="/" className="navItem">
             Mentorship
-          </Link>
+          </Link> */}
           <Link to="/" className="navItem">
             Events
           </Link>

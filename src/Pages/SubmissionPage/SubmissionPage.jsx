@@ -31,7 +31,7 @@ function Input({ label = "", name = "", placeholder = "", type="text", children,
 const SubmissionPage = () => {
   return (
     <section className="section py-[120px]">
-      <form action="" className="space-y-4 max-w-md shadow-md">
+      <form action="" className="mx-auto space-y-4 max-w-md">
         <h1 className="text-2xl font-bold">Join Now</h1>
         <Input name="name" label="Full Name" />
         <Input name="phone" type="tel" label="Mobile" />
