@@ -7,6 +7,7 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import NavBar from './Components/NavBar'
 import SubmissionPage from './Pages/SubmissionPage/SubmissionPage'
 import Events from './Pages/events/Events'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           element={<Events />}
          />
       </Routes>
+      <Footer />
     </Router>
   )
 }
