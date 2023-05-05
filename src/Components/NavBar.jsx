@@ -18,6 +18,11 @@ const NavBar = () => {
       className={`fixed  z-20 w-full   transition-all duration-200 ${
         click ? "bg-[#11141c]" : ""
       } `}
+      onClick={() => {
+        if (click) {
+          setClick(false)
+        }
+      }}
     >
       <nav
         className={`flex items-center mx-auto pt-4 pb-3 justify-between w-[90%] lg:w-[80%] xl:w-[70%] 2xl:w-50% center-elment section`}
@@ -86,13 +91,7 @@ const NavBar = () => {
         >
           Curriculum
         </a>
-        <br />
-        <a
-          href="#events"
-          className="mb-2 text-[18px] cursor-pointer pl-[20px] text-white mt-[10px]"
-        >
-          Mentorship
-        </a>
+
         <br />
         <a
           href="#mentorship"
@@ -100,6 +99,13 @@ const NavBar = () => {
         >
           Events
         </a>
+        <br />
+        <Link
+          to="/student"
+          className="mb-2 text-[18px] cursor-pointer pl-[20px] text-white mt-[10px]"
+        >
+          Register
+        </Link>
         {/* <br/> */}
         {/* <Link to={'aboutUs'} className='mb-2 !text-[18px] cursor-pointer pl-[20px] text-white mt-[10px]'>About Us</Link> */}
       </div>
