@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navButton{
   @apply cursor-pointer rounded-full bg-gray-800 px-4 py-2 shadow-xl  lg:px-6 lg:py-3
 }
